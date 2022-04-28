@@ -4,8 +4,8 @@ local castlerockTime = workspace.MonsterSpawns.Triggers.CastleRockSnake:FindFirs
 --insert one of the above here heheehah
 local fart = "Castle Rock Last Looted: "..tostring(math.floor((os.time() - castlerockTime.Value) / 60)) .. " minutes ago.." 
 
-local url =
-   "https://discord.com/api/webhooks/968999988208218212/s3q3jzZ6nT1WoyyShlLKonsViRvj8yBZKhz8KiQbzp7CzIvDeLc2VQqbzuB44DVQ7UqW"
+local url = Webhook
+
 local data = {
    ["content"] = "Castle Rock Last Looted:",
    ["embeds"] = {
