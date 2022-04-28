@@ -1,4 +1,4 @@
-wait(4)
+wait(5.2)
 local jobid = game.JobId
 local castlerockTime = workspace.MonsterSpawns.Triggers.CastleRockSnake:FindFirstChild("LastSpawned")
 --insert one of the above here heheehah
