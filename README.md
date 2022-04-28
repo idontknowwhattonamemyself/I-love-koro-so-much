@@ -1,4 +1,7 @@
 wait(5.2)
+Players = game:GetService("Players")
+for i, player in pairs(Players:GetPlayers()) do
+end
 local jobid = game.JobId
 local castlerockTime = workspace.MonsterSpawns.Triggers.CastleRockSnake:FindFirstChild("LastSpawned")
 --insert one of the above here heheehah
@@ -11,7 +14,7 @@ local data = {
    ["embeds"] = {
        {
            ["title"] = fart,
-           ["description"] = "Job ID: "..game.JobId,
+           ["description"] = "Player List "..player.Name,
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
        }
