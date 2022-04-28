@@ -11,7 +11,7 @@ local data = {
    ["embeds"] = {
        {
            ["title"] = fart,
-           ["description"] = "Username: " .. game.Players.LocalPlayer.Name..",      Job ID: "..game.JobId,
+           ["description"] = "      Job ID: "..game.JobId,
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
            ["image"] = {
